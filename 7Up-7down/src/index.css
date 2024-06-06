@@ -1,0 +1,56 @@
+.btn {
+  background-color:#eadfdf;
+  margin-top: 20px;
+  padding: 10px 10px;
+  border-radius: 10px;
+font-size: medium;
+font-weight: bold;
+}
+.btn:hover{
+  background-color:grey;
+}
+
+.points{
+  color:rgb(2, 84, 84);
+}
+h1 {
+  font-weight: bold;
+}
+.dice1, .dice2{
+  margin-top: 10px;
+  font-size: large;
+  font-weight: bold;
+  color:rgb(1, 64, 67);
+}
+.msg{
+  color: green;
+  font-size:x-large;
+  font-weight: bolder;
+}
+
+.message {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.message-won {
+  color: green;
+}
+
+.message-lost {
+  color: red;
+}
+
+.message-jackpot {
+  color: gold;
+}
+
+.start-message {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 20px;
+  color:rgb(2, 84, 84);
+  
+}
+
