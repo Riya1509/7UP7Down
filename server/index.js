@@ -4,7 +4,9 @@ const cors = require("cors");
 
 const app = express();
 
-app.use(cors());
+app.use(cors({
+    origin: "https://7-up-7-down-upfj.vercel.app/"
+  }));
 app.use(bodyParser.json());
 
 const PORT = process.env.PORT || 8080;
