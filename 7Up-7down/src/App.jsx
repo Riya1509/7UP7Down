@@ -20,9 +20,9 @@ function App() {
   const rolldice = async() => {
     setLoading(true);
     try {
-      const result = await axios.post('https://sevenup7down.onrender.com/roldice');
+      const result = await axios.post('http://localhost:8080/roldice');
       setDiceResult(result.data);
-      const response = await axios.post('https://sevenup7down.onrender.com/calculateResult', {
+      const response = await axios.post('http://localhost:8080/calculateResult', {
       dice1: result.data.dice1,
       dice2: result.data.dice2,
       betAmount,
